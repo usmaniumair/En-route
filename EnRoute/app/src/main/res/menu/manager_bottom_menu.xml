@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/manager_nav_driver_list"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Drivers"
+        />
+
+    <item
+        android:id="@+id/manager_nav_track_drivers"
+        android:icon="@drawable/ic_location_black"
+        android:title="Tracking"
+        />
+
+    <item
+        android:id="@+id/manager_nav_orders"
+        android:icon="@drawable/ic_bell_black_24dp"
+        android:title="Orders"
+        />
+
+</menu>

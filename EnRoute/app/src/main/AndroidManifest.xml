@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.enroute.lasttake" >
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:name=".Global"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="com.enroute.lasttake.MainActivity" android:windowSoftInputMode="adjustResize" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.here.android.mpa.service.MapService"
+            android:label="EnRouteHereMapsService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.enroute.lasttake.MapService"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2e675ddb58855911266e7e3c2ec5c5a4cc9f6fdc"
+            />
+        <meta-data android:name="com.here.android.maps.appid"
+            android:value="j6WBy4WHLt6j0PHc0KJk"/>
+        <meta-data android:name="com.here.android.maps.apptoken"
+            android:value="AnoNpNd_KvJze-VoSOJpZw"/>
+        <meta-data android:name="com.here.android.maps.license.key"
+            android:value="PU9zHvNccip6MaKMdyo99ZHRLdHutawBrhK7ruSF6W/olvvMY6bAcamWpIOZX5XGx6cx3sXD0nIYg1oiUGza7wF4nrXGuZtRjPI+XKARhz2yvq30Q3JnGSTGCtuSswpwIUZP134cU6EMUyVvvHN5sVKqU8isnhNRSZEg7tCzOLMa3/+ETa4NzSy26Nx8x+7X7k3XlKlr+q7Awu+VAjR7e+xtmFhGU0kZiMRc5qy4Bf/YEucwmp7Q/ptjKoc6RgOiipJUsQrJYGQGk9/p7KmdXttxEnzV6N6RUcJ+arSu9hnvbTim3d8KRIYv4e1azydNTM8LIM2YRb22vSYjstZUqITBfK8ixGO3vNa5wH0OE4EWHKwRawu1aNPq1UYKd74iQM4AZ1CvrtvQM/4fo0lmeMyYOMocPSlAxO/NetoLxHsYE5uL2ISgsgJN1G/iiD8GfcTGTXPMfiyGC6tQ54i687gU4LILghRxpwkVraNPqcHo06tJjWexGKlMZUJERRBR6e4p0DRo22aQBbKFQWcYbvzRhEwxWhas9LQMa2sso/dCszQTY7jToXUEZY856lROqdtBaIk2n8Q4r1mynBQStewXydQZ2KL/sA7cIFndKmimfz8ygbWzTPAHq8yezuGHmn2Q8riufeCSHqqgc1yfwcUTHOk1SSqOqbxunJ2GLh4="/>
+    </application>
+
+</manifest>

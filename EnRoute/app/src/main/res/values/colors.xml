@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#2E4390</color>
+
+    <color name="buttonBgPressed">#00908A</color>
+    <color name="stopNavigationBgPressed">#4CEC610E</color>
+
+    <color name="redTextNormal">#FF4444</color>
+    <color name="greenTextNormal">#669900</color>
+    <color name="blueBgNormal">#3B55E6</color>
+
+    <color name="redTextProt">#968A5A</color>
+    <color name="greenTextProt">#9c8a00</color>
+    <color name="blueBgProt">#0062CC</color>
+
+    <color name="redTextDeut">#AD8339</color>
+    <color name="greenTextDeut">#AF821E</color>
+    <color name="blueBgDeut">#0068AF</color>
+</resources>

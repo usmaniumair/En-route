@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "765389432783",
+    "firebase_url": "https://enroute-1ad80.firebaseio.com",
+    "project_id": "enroute-1ad80",
+    "storage_bucket": "enroute-1ad80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765389432783:android:607f442e9a34089c",
+        "android_client_info": {
+          "package_name": "com.enroute.lasttake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765389432783-p341512m6ss66l8j6c11vpc2e2qj87me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enroute.lasttake",
+            "certificate_hash": "4cecd87806ca0ee3d197e444230aa4d56e91a248"
+          }
+        },
+        {
+          "client_id": "765389432783-lbd8i3unbt7v72aiqvamqg74jb5q5han.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enroute.lasttake",
+            "certificate_hash": "d9e10b68c97f78eed85f101173d455681959893b"
+          }
+        },
+        {
+          "client_id": "765389432783-vlr8u1c76st9d7icrn2nmbkajsq14ce8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enroute.lasttake",
+            "certificate_hash": "e51931d94596a2c64788374aac65b447ad8722ea"
+          }
+        },
+        {
+          "client_id": "765389432783-17ur2256q7d7qsjv7pbqhjtjeqt82mp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMHOFt2RcMQldQJOW1UAjxxxtJkDdRQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765389432783-17ur2256q7d7qsjv7pbqhjtjeqt82mp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765389432783:android:437fc35be6a5fe9f",
+        "android_client_info": {
+          "package_name": "com.enroute.prototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765389432783-f7fi0tor15qh6g052mc4tk183mq9rehf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enroute.prototype",
+            "certificate_hash": "4cecd87806ca0ee3d197e444230aa4d56e91a248"
+          }
+        },
+        {
+          "client_id": "765389432783-sr4e7nu3oicg1n5h71ck1o5pqtep2sac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enroute.prototype",
+            "certificate_hash": "d9e10b68c97f78eed85f101173d455681959893b"
+          }
+        },
+        {
+          "client_id": "765389432783-4qkul2dj1uf9vjsr6i94so6q4p84a86r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enroute.prototype",
+            "certificate_hash": "e51931d94596a2c64788374aac65b447ad8722ea"
+          }
+        },
+        {
+          "client_id": "765389432783-17ur2256q7d7qsjv7pbqhjtjeqt82mp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMHOFt2RcMQldQJOW1UAjxxxtJkDdRQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765389432783-17ur2256q7d7qsjv7pbqhjtjeqt82mp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

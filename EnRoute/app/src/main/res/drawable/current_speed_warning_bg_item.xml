@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/lui_negative" />
+    <size android:height="@dimen/current_speed_landscape_size" android:width="@dimen/current_speed_landscape_size" />
+</shape>

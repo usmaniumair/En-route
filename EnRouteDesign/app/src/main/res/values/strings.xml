@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EnRoute Design</string>
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="orange">ORANGE</string>
+    <string name="manager">MANAGER</string>
+    <string name="driver">DRIVER</string>
+</resources>
